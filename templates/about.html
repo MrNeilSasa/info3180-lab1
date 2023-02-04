@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
         <title>My Website - About</title>
     </head>
 
@@ -12,5 +13,6 @@
         as possible before I even graduate. I already have some valuable expereince under my belt from internships,
         I will now be focusing on my final year project and self study of algorithms and data structures.</p>
 
+        <img src="{{ url_for('static', filename='subarusomke.jpg') }}" alt="Subaru smoking with Emilia">
     </body>
 </html>
